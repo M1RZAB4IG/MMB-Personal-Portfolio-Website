@@ -8275,7 +8275,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: white;
+  color: black;
   font-weight: 400; }
 
 .text-primary {
