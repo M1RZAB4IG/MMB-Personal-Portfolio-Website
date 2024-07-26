@@ -8250,7 +8250,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #000000   
+  background: #FFFFFF  
  ;
   font-size: 16px;
   line-height: 1.8;
@@ -8275,7 +8275,7 @@ a {
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
-  color: black;
+  color: white;
   font-weight: 400; }
 
 .text-primary {
@@ -8792,7 +8792,7 @@ h1, h2, h3, h4, h5,
   font-size: 20px; }
   .ftco-about .counter-wrap .text p span {
     font-weight: 400;
-    color: #000000; }
+    color: #FFFFFF; }
   .ftco-about .counter-wrap .text p span.number {
     font-weight: 600;
     color: #2BFCCF; }
@@ -9066,7 +9066,7 @@ h1, h2, h3, h4, h5,
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
-      color: #00b7fa; }
+      color: #00ffb3; }
   .ftco-hireme p {
     color: rgba(255, 255, 255, 0.9); }
 
@@ -9290,12 +9290,12 @@ textarea.form-control {
   .footer-small-nav > li a {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #2BFCCF; }
+      color: #FFFFFF; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
-    color: #2BFCCF; }
+    color: #FFFFFF; }
 
 #map {
   width: 100%; }
