@@ -7,7 +7,7 @@
   z-index: 1042;
   overflow: hidden;
   position: fixed;
-  background: #0b0b0b;
+  background: #64ade6;
   opacity: 0.8; }
 
 .mfp-wrap {
@@ -84,7 +84,7 @@
   display: none !important; }
 
 .mfp-preloader {
-  color: #CCC;
+  color: #64eaab;
   position: absolute;
   top: 50%;
   width: auto;
@@ -144,7 +144,7 @@ button::-moz-focus-inner {
     top: 1px; }
 
 .mfp-close-btn-in .mfp-close {
-  color: #333; }
+  color: #46a7d7; }
 
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
@@ -331,7 +331,7 @@ img.mfp-img {
     width: 35px;
     height: 35px;
     line-height: 35px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(69, 136, 218, 0.6);
     position: fixed;
     text-align: center;
     padding: 0; } }
