@@ -345,7 +345,9 @@ h3.my-profession
 {
     flex: 0 0 40%;
     max-width: 40%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 .home-img::after
@@ -357,7 +359,7 @@ h3.my-profession
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: -20px;
-    bottom: 80px;
+    bottom: 40px;
 }
 .home-img::before
 {
@@ -367,14 +369,18 @@ h3.my-profession
     width: 80px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
-    top: -40px;
+    left: -10px;
+    top: -10px;
 }
 .home .home-img img
 {
-    margin: auto;
-    border-radius: 5px;
-    height: 400px;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border: 6px solid transparent;
+    padding: 5px;
+    z-index: 2;
 }
 /* About */
 .about .about-content

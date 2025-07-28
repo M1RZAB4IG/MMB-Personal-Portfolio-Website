@@ -105,3 +105,29 @@
 {
     background: #e5ac6f;
 }
+
+@media (max-width: 768px) {
+    .style-switcher {
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+    }
+    .style-switcher.open {
+        transform: translateX(0);
+    }
+}
+
+.style-switcher .colors span:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.style-switcher {
+    z-index: 9999; /* instead of 101 to guarantee it's topmost */
+}
+
+.style-switcher .style-switcher-toggler,
+.style-switcher .day-night {
+    position: absolute; /* Add this if missing */
+}
